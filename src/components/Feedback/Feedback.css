@@ -1,0 +1,121 @@
+.feedback-container {}
+
+.footer-heading-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: #2a2929;
+    margin-bottom: 0px;
+}
+
+.footer-message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-message {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: #7c7474;
+    margin-bottom: 30px;
+}
+
+.footer-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-img {
+    width: 25%;
+}
+
+.footer-info-container {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.footer-info-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright-container {
+    padding-left: 100px;
+}
+
+.copyright-text {
+    margin-bottom: 0px;
+    color: #7c7474;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.copyright-info {
+    width: 80%;
+    margin-top: 0px;
+    color: #7c7474;
+    font-family: 'Poppins', sans-serif;
+}
+
+.author-name {
+    font-family: 'Lemon', serif;
+    font-size: 28px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.made-with-text {
+    color: #7c7474;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+}
+
+.connect-with-text {
+    color: #7c7474;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.social-media-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-logo {
+    width: 35px;
+    margin-right: 20px;
+}
+
+@media (max-width: 1020px) {
+    .footer-info-container {
+        flex-direction: column;
+    }
+
+    .copyright-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .copyright-info {
+        width: 100%;
+    }
+
+    .footer-image-container {
+        margin-top: 40px;
+    }
+}

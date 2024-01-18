@@ -1,0 +1,80 @@
+.exp-container {
+    padding: 0px 180px;
+}
+
+.exp-heading-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.exp-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: #2a2929;
+    margin-bottom: 0px;
+}
+
+.company-details-container {
+    display: flex;
+}
+
+.company-logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 0px 4px;
+}
+
+.company-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.position-details-container {
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.position-details-container h4 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.company-name {
+    font-size: 16px;
+    font-weight: 100;
+    color: #494747;
+}
+
+.duration {
+    font-size: 14px;
+    font-weight: 100;
+    color: #7c7474;
+}
+
+.skills-list {
+    font-size: 14px;
+    font-weight: 100;
+    color: #494747;
+}
+
+.company-separator {
+    width: 100%;
+    border: 0.5px solid #bfc8ca;
+    margin: 20px 0px;
+}
+
+@media (max-width: 1020px) {
+    .company-logo-container {
+        padding: 0px 8px;
+    }
+    .exp-container {
+        padding: 0px 40px;
+        display: flex;
+        flex-direction: column;
+    }
+}

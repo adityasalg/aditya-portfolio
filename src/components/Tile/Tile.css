@@ -1,0 +1,23 @@
+.tile-container {
+    display: inline-flex;
+    border: 1px solid #d7dcdd;
+    padding: 6px 14px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.tile-container:hover {
+    cursor: pointer;
+    background-color: #e0e6e7;
+}
+
+.tile-logo {
+    height: 20px;
+    margin-right: 4px;
+}
+
+.tile-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
