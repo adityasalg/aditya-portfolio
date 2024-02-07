@@ -115,7 +115,7 @@ const Skills = ({ props }, ref) => {
       </div>
       <div className="download-button-container">
         <a
-          href="https://drive.google.com/uc?export=download&id=1esx5E4g35yURLS40NdTDqbhfB9gCsn_9"
+          href="https://drive.google.com/uc?export=download&id=1QeEPR5eRerTxOWgXnr5SYLuv7Ju-zyeI"
           download
         >
           <button className="download-btn">
