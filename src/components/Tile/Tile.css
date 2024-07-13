@@ -7,7 +7,7 @@
 }
 
 .tile-container:hover {
-    cursor: pointer;
+    cursor: default;
     background-color: #e0e6e7;
 }
 

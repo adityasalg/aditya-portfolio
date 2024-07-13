@@ -16,15 +16,15 @@ const Skills = ({ props }, ref) => {
           <div className="skills">
             <Tile
               imgName="react.png"
-              style={{ marginRight: 10, marginBottom: 10 }}
+              style={{ marginRight: 10, marginBottom: 1 }}
             >
-              ReactJS
+              React Native
             </Tile>
             <Tile
               imgName="react.png"
               style={{ marginRight: 10, marginBottom: 10 }}
             >
-              React Native
+              ReactJS
             </Tile>
             <Tile
               imgName="html.png"
@@ -115,7 +115,8 @@ const Skills = ({ props }, ref) => {
       </div>
       <div className="download-button-container">
         <a
-          href="https://drive.google.com/uc?export=download&id=1QeEPR5eRerTxOWgXnr5SYLuv7Ju-zyeI"
+          // Change only id
+          href="https://drive.google.com/uc?export=download&id=1GYK5-p6H8lg3jHV4C4DICW9bTElUKXLO"
           download
         >
           <button className="download-btn">

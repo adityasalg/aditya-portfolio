@@ -42,19 +42,15 @@ const About = ({ props }, ref) => {
           <h1 className="about-me-heading">About me!</h1>
           <div className="about-me-paragraph-container">
             <p>
-              Hi I am Aditya Salgaonkar, a {getAge("1997-05-16")} year old Full
-              stack developer working with tech stack React, React Native and
-              Node.js in{" "}
-              <a
+              Hi I am Aditya Salgaonkar, a {getAge("1997-05-16")} year old  mobile app developer with over 4+ years of experience in the industry. I specialize in React Native for mobile app development and have extensive full-stack experience with a tech stack that includes React and Node.js. I am a committed and innovative professional with strong analytical and debugging skills.
+              {/* <a
                 className="location-link"
                 href="https://maps.app.goo.gl/xsefgSyUrXc38uXC9"
                 target="_blank"
               >
                 {" "}
                 Pune, India
-              </a>
-              . I am a committed and innovative professional with strong
-              analytical and debugging skills.
+              </a> */}
             </p>
             <p>
               Have a look at my skills or just connect with me on{" "}
